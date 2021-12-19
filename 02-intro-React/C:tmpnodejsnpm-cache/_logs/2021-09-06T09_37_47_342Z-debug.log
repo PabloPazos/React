@@ -1,0 +1,43 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', '-g', 'install' ]
+1 info using npm@7.22.0
+2 info using node@v16.8.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/pablo/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/home/pablo/.npm-global/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 12ms
+18 timing npm:load:configload Completed in 12ms
+19 timing npm:load:setTitle Completed in 0ms
+20 timing npm:load:setupLog Completed in 0ms
+21 timing config:load:flatten Completed in 3ms
+22 timing npm:load:cleanupLog Completed in 3ms
+23 timing npm:load:configScope Completed in 0ms
+24 timing npm:load:projectScope Completed in 1ms
+25 timing npm:load Completed in 20ms
+26 timing arborist:ctor Completed in 1ms
+27 timing idealTree:init Completed in 7ms
+28 timing idealTree Completed in 9ms
+29 timing command:install Completed in 42ms
+30 verbose stack Error: ENOENT: no such file or directory, open '/home/pablo/Courses/React/02-intro-React/package.json'
+31 verbose cwd /home/pablo/Courses/React/02-intro-React
+32 verbose Linux 5.13.13-arch1-1
+33 verbose argv "/usr/bin/node" "/usr/bin/npm" "-g" "install"
+34 verbose node v16.8.0
+35 verbose npm  v7.22.0
+36 error code ENOENT
+37 error syscall open
+38 error path /home/pablo/Courses/React/02-intro-React/package.json
+39 error errno -2
+40 error enoent ENOENT: no such file or directory, open '/home/pablo/Courses/React/02-intro-React/package.json'
+41 error enoent This is related to npm not being able to find a file.
+42 verbose exit -2
